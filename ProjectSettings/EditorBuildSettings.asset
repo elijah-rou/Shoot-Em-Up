@@ -4,4 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MenuScreen.unity
+  - enabled: 1
+    path: Assets/Scenes/ControlScreen.unity
+  - enabled: 1
+    path: Assets/Scenes/PreGameScreen.unity
+  - enabled: 1
+    path: Assets/Scenes/main.unity

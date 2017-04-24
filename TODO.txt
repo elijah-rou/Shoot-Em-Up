@@ -1,0 +1,11 @@
+Laser Explode FX Not working
+
+Player Health
+Player Powerups
+    Boost
+    Rate Of Fire Increase
+    Health +1
+
+GUI
+
+Menu

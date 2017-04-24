@@ -30,15 +30,17 @@ public class LaserBolt : MonoBehaviour {
 		}
 	}
 
-	void FixedUpdate(){
-		
-	}
-
 	void OnTriggerEnter2D(Collider2D other){
 		Instantiate(laserEffect, transform.position, transform.rotation);
-		anim.SetTrigger("Impact");
 		rb.velocity = new Vector2(0f, 0f);
+		anim.SetTrigger("Impact");
 		triggerDecay = true;
+		if(other.tag == "Player1"){
+			FindObjectOfType<GameController>().HurtP1();
+		}
+		else if(other.tag == "Player2"){
+			FindObjectOfType<GameController>().HurtP2();
+		}
 	}
 
 	Vector3 direction(){
