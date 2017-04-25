@@ -1,0 +1,19 @@
+Hey There Tutor!
+
+First Thing's first, the game is not exactly finished. You can certainly  
+play it, but there's a few things to mention. 
+
+1)  Please run the game in 1024x768, I did not get a chance to optimise it
+    for other resolutions, and so the UI only fits perfectly in the aforementioned
+    resolution.
+2)  The AI component of the game functions, there is however a bug that affects the creeps
+    firing lasers in a certain direction. I tried but simply could not fix it. 
+    Please, try to ignore it haha
+3)  The Controls are in listed in the game itself under the "Controls" menu
+4)  The goal of the game is to kill your opponent (or not to die)
+5)  There is a large amount of content I did not manage to complete in the Assets,
+    please ignore it.
+6)  The boost ability accelerates the player forward. It functions on a 3 second cooldown after use
+7)  I have included final builds in Builds/
+
+ 
