@@ -7,7 +7,7 @@ public class ControlsScript : MonoBehaviour {
 
 	public string menu;
 	void Update(){
-		if(Input.GetKey(KeyCode.Escape)){
+		if(Input.GetKey(KeyCode.M)){
 			returnMenu();
 		}
 	}

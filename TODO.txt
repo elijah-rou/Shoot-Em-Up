@@ -1,11 +1,12 @@
+AI
+
+Player Powerups
+    Invulnerability (Small Creep)
+    Rate Of Fire Increase (Medium Creep)
+    Health +1 (Big Creep)
+
+Sound
+
 Laser Explode FX Not working
 
-Player Health
-Player Powerups
-    Boost
-    Rate Of Fire Increase
-    Health +1
-
-GUI
-
-Menu
+Control Scene

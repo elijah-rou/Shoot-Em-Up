@@ -41,6 +41,12 @@ public class LaserBolt : MonoBehaviour {
 		else if(other.tag == "Player2"){
 			FindObjectOfType<GameController>().HurtP2();
 		}
+		else if(other.tag == "SmallCreep"){
+			FindObjectOfType<GameController>().destroySmallCreep(other.gameObject);
+		}
+	}
+	void OnTriggerExit2D(Collider2D other){
+		Destroy(gameObject);
 	}
 
 	Vector3 direction(){

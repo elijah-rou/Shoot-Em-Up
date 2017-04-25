@@ -200,7 +200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 216bb27f8b3ed4fe2a60a4250392ba8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainScene: PreGameScreen
+  mainScene: main
   controlScene: ControlScreen
 --- !u!1 &403030250
 GameObject:
