@@ -66,6 +66,6 @@ public class SmallCreepController : MonoBehaviour {
 	}
 
 	Vector3 direction(){
-		return Quaternion.AngleAxis(rb.rotation, Vector3.forward) * Vector3.up;
+		return shootPoint.rotation * Vector3.up;
 	}
 }
